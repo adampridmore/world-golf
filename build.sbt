@@ -9,6 +9,9 @@ scalaVersion := "2.13.3"
 
 libraryDependencies += guice
 libraryDependencies += "org.scalatestplus.play" %% "scalatestplus-play" % "5.0.0" % Test
+libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.0" % Test
+libraryDependencies += "org.scalatest" %% "scalatest-wordspec" % "3.0.0" % Test
+libraryDependencies += "org.scalatest" %% "scalatest-shouldmatchers" % "3.0.0" % Test
 
 // Adds additional packages into Twirl
 //TwirlKeys.templateImports += "com.world-golf.controllers._"
